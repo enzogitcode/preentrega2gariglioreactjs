@@ -3,7 +3,7 @@ const productos = [
     { id: "2", nombre: "Torta Oreo", precio: 180, img: "../imgs/tortaoreo", idCat: "Tortas" },
     { id: "3", nombre: "Medialunas rellenas", precio: 200, img: "", idCat: "Laminados" },
     { id: "4", nombre: "Medialunas", precio: 1100, img: "../imgs/medialunas.webp", idCat: "Laminados" },
-    { id: "5", nombre: "Rogel", precio: 1100, img: "../imgs/rogel.jpg", idCat: "Torta" },]
+    { id: "5", nombre: "Rogel", precio: 1100, img: "../imgs/rogel.jpg", idCat: "Tortas" },]
 
 export const getProductos = () => {
     return new Promise((resolve) => {
