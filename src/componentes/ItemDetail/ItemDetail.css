@@ -1,4 +1,6 @@
 .contenedorItem {
+    background-color: var(--cardBisque);
+    color: var(--azulletras);
     text-align: center;
     border: 1px solid #000;
     border-radius: 10px;
@@ -9,5 +11,5 @@
     font-family: 'Ubuntu';
 }
 img {
-    width: 100px;
+    width: 35%;
 }
