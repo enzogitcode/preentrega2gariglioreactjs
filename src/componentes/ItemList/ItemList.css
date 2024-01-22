@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 1.5%;
+     background-color: var(--cardBisque);
     }
 .contenedorProductos:hover {
     box-shadow: 1.5px 1.5px var(--azulnegocio);
